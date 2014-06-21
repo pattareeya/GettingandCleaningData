@@ -94,4 +94,4 @@ fBodyGyroMag-mean()    :Mean of Fast Fourier Transform of Body Angular Velocity 
 fBodyGyroMag-std()     :Standard deviation of Fast Fourier Transform of Body Angular Velocity Magnitude
 fBodyGyroJerkMag-mean()  :Mean of Fast Fourier Transform of Body Angular Velocity Jerk Magnitude
 fBodyGyroJerkMag-std()   :Standard deviation of Fast Fourier Transform of Body Angular Velocity Jerk
-                          Magnitude
+                          Magnitude 
