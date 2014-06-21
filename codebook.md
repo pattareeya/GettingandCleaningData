@@ -1,5 +1,5 @@
 This is the code book for Data_avg.txt
-===================================================================================================
+============================================================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -10,15 +10,16 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-===================================================================================================
+============================================================
 
-Columns represent the activities which are
-	- Laying
-	- Sitting
-	- Standing
-	- Walking
-	- Walking_Downstairs: Walking Downstairs
-	- Walking_Upstairs: Waling Upstairs
+Columns represent the activities which are:
+
+*Laying
+* Sitting
+* Standing
+* Walking
+* Walking_Downstairs: Walking Downstairs
+* Walking_Upstairs: Waling Upstairs
 
 Rows represent signals based on different activities, all the range of the signals are from -1.00 to 1.00, variables are
 
@@ -71,27 +72,20 @@ fBodyAcc-std()-Z       :Standard deviation of Fast Fourier Transform of Body Acc
 fBodyAccJerk-mean()-X  :Mean of Fast Fourier Transform of Body Acceleration Jerk signal on axis X 
 fBodyAccJerk-mean()-Y  :Mean of Fast Fourier Transform of Body Acceleration Jerk signal on axis Y
 fBodyAccJerk-mean()-Z  :Mean of Fast Fourier Transform of Body Acceleration Jerk signal on axis Z
-fBodyAccJerk-std()-X   :Standard deviation of Fast Fourier Transform of Body Acceleration Jerk signal on 
-                        axis X
-fBodyAccJerk-std()-Y   :Standard deviation of Fast Fourier Transform of Body Acceleration Jerk signal on 
-                        axis Y
-fBodyAccJerk-std()-Z   :Standard deviation of Fast Fourier Transform of Body Acceleration Jerk signal on 
-                        axis Z
+fBodyAccJerk-std()-X   :Standard deviation of Fast Fourier Transform of Body Acceleration Jerk signal on axis X
+fBodyAccJerk-std()-Y   :Standard deviation of Fast Fourier Transform of Body celeration Jerk signal on axis Y
+fBodyAccJerk-std()-Z   :Standard deviation of Fast Fourier Transform of Body Acceleration Jerk signal on axis Z
 fBodyGyro-mean()-X     :Mean of Fast Fourier Transform of Body Angular Velocity signal on axis X
 fBodyGyro-mean()-Y     :Mean of Fast Fourier Transform of Body Angular Velocity signal on axis Y
 fBodyGyro-mean()-Z     :Mean of Fast Fourier Transform of Body Angular Velocity signal on axis Z
-fBodyGyro-std()-X      :Standard deviation of Fast Fourier Transform of Body Angular Velocity signal on 
-                        axis X
-fBodyGyro-std()-Y      :Standard deviation of Fast Fourier Transform of Body Angular Velocity signal on 
-                        axis Y
-fBodyGyro-std()-Z      :Standard deviation of Fast Fourier Transform of Body Angular Velocity signal on
-                        axis Z
-fBodyAccMag-mean()     :Mean of of Fast Fourier Transform of Body Acceleration Magnitude
+fBodyGyro-std()-X      :Standard deviation of Fast Fourier Transform of Body Angular Velocity signal on axis X
+fBodyGyro-std()-Y      :Standard deviation of Fast Fourier Transform of Body Angular Velocity signal on axis Y
+fBodyGyro-std()-Z      :Standard deviation of Fast Fourier Transform of Body Angular Velocity signal on axis Z
+fBodyAccMag-mean()     :Mean of of Fast Fourier Transform of Body Acceleration Magnitude 
 fBodyAccMag-std()      :Standard deviation of Fast Fourier Transform of Body Acceleration Magnitude
 fBodyAccJerkMag-mean() :Mean of of Fast Fourier Transform of Body Acceleration Jerk Magnitude
 fBodyAccJerkMag-std()  :Standard deviation of Fast Fourier Transform of Body Acceleration Jerk Magnitude
 fBodyGyroMag-mean()    :Mean of Fast Fourier Transform of Body Angular Velocity Magnitude
 fBodyGyroMag-std()     :Standard deviation of Fast Fourier Transform of Body Angular Velocity Magnitude
 fBodyGyroJerkMag-mean()  :Mean of Fast Fourier Transform of Body Angular Velocity Jerk Magnitude
-fBodyGyroJerkMag-std()   :Standard deviation of Fast Fourier Transform of Body Angular Velocity Jerk
-                          Magnitude 
+fBodyGyroJerkMag-std()   :Standard deviation of Fast Fourier Transform of Body Angular Velocity Jerk Magnitude 
